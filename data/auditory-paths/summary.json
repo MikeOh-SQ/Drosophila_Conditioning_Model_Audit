@@ -1,0 +1,119 @@
+{
+  "schema_version": "auditory-parallel-transfer-1.0",
+  "dataset": "male-cns:v1.0",
+  "target_mbon_body_id": 12690,
+  "minimum_synapses_per_edge": 5,
+  "structure": {
+    "complete_path_count": 58,
+    "paths_through_wed191_10598": 1,
+    "paths_avoiding_wed191_10598": 57,
+    "unique_nodes_by_layer": [
+      26,
+      11,
+      3,
+      3,
+      1
+    ],
+    "unique_edges_by_layer": [
+      58,
+      11,
+      3,
+      3
+    ]
+  },
+  "model": {
+    "input": "all annotated JO sources synchronously set to 1; no measured stimulus tuning",
+    "edge_strength": "1-exp(-synapse_count/saturation); arbitrary conversion",
+    "node_integration": "sum of distinct incoming signed modeled signals divided by intact-graph indegree, clipped at zero",
+    "predicted_gaba_is_measured_functional_sign": false,
+    "other_unknown_signs_are_assumed_positive": true,
+    "conditions": [
+      {
+        "saturation": 2.0,
+        "sign_mode": "all_positive",
+        "modeled_mbon06_signal": 0.8677627274797058,
+        "modeled_signal_without_10598": 0.836557028379822,
+        "modeled_difference_after_10598_removal": -0.0312056990998838
+      },
+      {
+        "saturation": 2.0,
+        "sign_mode": "wed191_negative",
+        "modeled_mbon06_signal": 0.8053513292799384,
+        "modeled_signal_without_10598": 0.836557028379822,
+        "modeled_difference_after_10598_removal": 0.031205699099883688
+      },
+      {
+        "saturation": 2.0,
+        "sign_mode": "predicted_gaba_negative",
+        "modeled_mbon06_signal": 0.46706341004911306,
+        "modeled_signal_without_10598": 0.49826910914899686,
+        "modeled_difference_after_10598_removal": 0.0312056990998838
+      },
+      {
+        "saturation": 5.0,
+        "sign_mode": "all_positive",
+        "modeled_mbon06_signal": 0.39753627436174094,
+        "modeled_signal_without_10598": 0.3829237459045531,
+        "modeled_difference_after_10598_removal": -0.014612528457187857
+      },
+      {
+        "saturation": 5.0,
+        "sign_mode": "wed191_negative",
+        "modeled_mbon06_signal": 0.3683112174473652,
+        "modeled_signal_without_10598": 0.3829237459045531,
+        "modeled_difference_after_10598_removal": 0.014612528457187857
+      },
+      {
+        "saturation": 5.0,
+        "sign_mode": "predicted_gaba_negative",
+        "modeled_mbon06_signal": 0.23290704641502694,
+        "modeled_signal_without_10598": 0.24751957487221476,
+        "modeled_difference_after_10598_removal": 0.014612528457187829
+      },
+      {
+        "saturation": 10.0,
+        "sign_mode": "all_positive",
+        "modeled_mbon06_signal": 0.11883999372267662,
+        "modeled_signal_without_10598": 0.11383472021478902,
+        "modeled_difference_after_10598_removal": -0.005005273507887598
+      },
+      {
+        "saturation": 10.0,
+        "sign_mode": "wed191_negative",
+        "modeled_mbon06_signal": 0.10882944670690142,
+        "modeled_signal_without_10598": 0.11383472021478902,
+        "modeled_difference_after_10598_removal": 0.005005273507887598
+      },
+      {
+        "saturation": 10.0,
+        "sign_mode": "predicted_gaba_negative",
+        "modeled_mbon06_signal": 0.07178251585854577,
+        "modeled_signal_without_10598": 0.07678778936643336,
+        "modeled_difference_after_10598_removal": 0.005005273507887598
+      }
+    ],
+    "conditioning_or_policy_learning_performed": false,
+    "connectome_synapse_counts_changed": false,
+    "dopamine_spikes_generated": false
+  },
+  "evidence_boundary": {
+    "edges_and_counts": "measured_EM_structure",
+    "cell_types_and_transmitter": "annotation_and_prediction",
+    "sound_evoked_activity": "unmeasured",
+    "modeled_signal": "engineering_assumption",
+    "biological_learning": "unmeasured"
+  },
+  "research_gate": {
+    "auditory_learning_bridge_ready": false,
+    "reason": "no independent stimulus-to-JO or parallel-path signed activity calibration"
+  },
+  "source_sha256": {
+    "annotations": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2",
+    "weights": "e35da783d1c686b2b58b3b87cd6a403ae43bfcfba8bff28e08ef752c1a56afc1",
+    "neurotransmitters": "95c9289220663abeb3409f3ad9e5a7f8a53f8093f5139d15502cd08da8879621"
+  },
+  "prior_artifact_sha256": {
+    "baker-auditory-crosswalk-v3": "c88861ea8202b17a547689313a1462d70724384188005968fe2101914ee24600",
+    "wed191-parallel-routes-v1": "b1a6a6ca7fc0fb5d4434f99ae164d6ae4a89f549e010a42f3ea7b97883ba4c5f"
+  }
+}

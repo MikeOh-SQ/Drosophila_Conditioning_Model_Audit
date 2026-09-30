@@ -1,0 +1,13 @@
+condition,structure_shuffle,n_technical_sessions,final_trial,qualified_fraction,three_way_fraction,mean_separation_probability,last_three_checkpoints_qualified,changed_session_fraction
+combined_fast,False,144,33,0.2638888888888889,0.0,0.6658306940439387,False,1.0
+combined_fast,True,144,33,0.2916666666666667,0.0,0.6707256246915075,False,1.0
+combined_half_dose,False,144,126,0.1736111111111111,0.0,0.4694506602019819,False,1.0
+combined_half_dose,True,144,126,0.2638888888888889,0.0,0.5187193161960271,False,1.0
+reward_only,False,144,33,0.3333333333333333,0.0,0.3333333333333408,False,1.0
+reward_only,True,144,33,0.09027777777777778,0.0,0.2591783572351989,False,1.0
+punishment_only,False,144,33,0.0,0.0,0.26254016089901866,False,1.0
+punishment_only,True,144,33,0.020833333333333332,0.0,0.2829407547021067,False,1.0
+no_outcome,False,144,33,0.0,0.0,0.0,False,0.0
+no_outcome,True,144,33,0.0,0.0,0.0,False,0.0
+plasticity_disabled,False,144,33,0.0,0.0,0.0,False,0.0
+plasticity_disabled,True,144,33,0.0,0.0,0.0,False,0.0

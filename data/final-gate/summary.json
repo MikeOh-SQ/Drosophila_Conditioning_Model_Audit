@@ -1,0 +1,54 @@
+{
+  "schema_version": "auditory-conditioning-final-check-result-1.0",
+  "independent_study": "https://doi.org/10.1242/jeb.055202",
+  "source_observed_pattern": "Paired training slopes positive at all three intensities; unpaired slopes not significantly greater than zero; no-reward indistinguishable from unpaired; response retained at 15 and 25 minutes",
+  "checks": [
+    {
+      "id": "physical_auditory_stimulus",
+      "passed": false,
+      "observed": "Only symbolic A/B cues; no 400 Hz or SPL input"
+    },
+    {
+      "id": "six_single_cue_trials",
+      "passed": false,
+      "observed": "12 A/B cue events after setting trials_per_cue=6"
+    },
+    {
+      "id": "paired_reward_delay",
+      "passed": false,
+      "observed": "first paired reward offset=0 model units; paper=5 seconds"
+    },
+    {
+      "id": "unpaired_reward_order",
+      "passed": false,
+      "observed": "all unpaired rewards before all cues"
+    },
+    {
+      "id": "seconds_and_retention",
+      "passed": false,
+      "observed": "time_unit=dimensionless_model_unit_not_seconds; probe_delay=2.0 model units"
+    },
+    {
+      "id": "proboscis_behavioral_readout",
+      "passed": false,
+      "observed": "probe keys=['approach_rate', 'avoidance_rate', 'bias']; no measured PER calibration"
+    },
+    {
+      "id": "individual_trial_data_available",
+      "required": false,
+      "passed": false,
+      "observed": "two supplementary figure JPEGs and an index; no individual trial table identified"
+    }
+  ],
+  "all_required_gates_passed": false,
+  "verdict": "not_comparable_no_external_validation",
+  "biological_learning_test_performed": false,
+  "existing_model_or_published_results_modified": false,
+  "interpretation": "A protocol/readout gate, not a numerical fit or refutation of Drosophila auditory conditioning.",
+  "source_sha256": {
+    "reference_protocol": "69938ac32e203c0c866051007d2579486378242de6a2ea9f0b548a3e2a36f72f",
+    "model_plan": "6b72bb5e6fbd744eed44bc09edc48aee3f3028a00637d06acdb7dd973881dfc4",
+    "engine": "db8ffcdfc80ad0afdd24bdd492681d67449876204fba931180b8a690ea91be6f",
+    "runner": "9b8f0797e6a2e6f17e098395343fec69476259f1d9eb745e08c16e13fce3bf71"
+  }
+}

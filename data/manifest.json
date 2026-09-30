@@ -1,0 +1,93 @@
+{
+  "schema_version": "public-research-bundle-1.0",
+  "files": {
+    "stage87/summary.json": {
+      "source_runtime_path": "runtime/conditioning-final-v4/summary.json",
+      "sha256": "9772c301c3b44e0cabee7df881f5dcace347741e32994907ded9094ab1b775c9",
+      "bytes": 6928,
+      "evidence": "derived_computational_result_not_animal_measurement"
+    },
+    "stage87/conditions.csv": {
+      "source_runtime_path": "runtime/conditioning-final-v4/conditions.csv",
+      "sha256": "c84bb8f212f561a710d62a8a8981de9a472e94852cc869ec79779f4800c31e3e",
+      "bytes": 1951,
+      "evidence": "derived_computational_result_not_animal_measurement"
+    },
+    "stage87/contrasts.csv": {
+      "source_runtime_path": "runtime/conditioning-final-v4/contrasts.csv",
+      "sha256": "07a934e8ae594ed341efe9dad71725aedd5f30720af26d4ba8ca5de04ba7b210",
+      "bytes": 456,
+      "evidence": "derived_computational_result_not_animal_measurement"
+    },
+    "stage87/sessions.csv": {
+      "source_runtime_path": "runtime/conditioning-final-v4/sessions.csv",
+      "sha256": "1b76e2e79f9df165df43c913f8a50309141bff542e09e584b52e12074bdc190b",
+      "bytes": 788860,
+      "evidence": "derived_computational_result_not_animal_measurement"
+    },
+    "stage88/summary.json": {
+      "source_runtime_path": "runtime/conditioning-efficiency-main-v1/summary.json",
+      "sha256": "a0dce7efccad8be0c82713834e630069527180bf003c9c81829b204513970ae4",
+      "bytes": 41422,
+      "evidence": "derived_computational_result_not_animal_measurement"
+    },
+    "stage89/summary.json": {
+      "source_runtime_path": "runtime/conditioning-valence-main-v1/summary.json",
+      "sha256": "46d1b797e95b01b29d65adc97ce76257829f7586c4de1d470f8b2e1f6ca51358",
+      "bytes": 149465,
+      "evidence": "derived_computational_result_not_animal_measurement"
+    },
+    "stage90/summary.json": {
+      "source_runtime_path": "runtime/conditioning-connectome-main-v3/summary.json",
+      "sha256": "e489050402bbebe143db62fcfd605b9c2deedf84ef9d84e372240c136a96a180",
+      "bytes": 67826,
+      "evidence": "derived_computational_result_not_animal_measurement"
+    },
+    "stage90/conditions.csv": {
+      "source_runtime_path": "runtime/conditioning-connectome-main-v3/conditions.csv",
+      "sha256": "800f96425bb2c4b7b828cbe0e5e853c8fef60bbc3cf29a9b8ccd33bfd69a08b0",
+      "bytes": 1027,
+      "evidence": "derived_computational_result_not_animal_measurement"
+    },
+    "stage91/summary.json": {
+      "source_runtime_path": "runtime/conditioning-connectome-followup-main-v2/summary.json",
+      "sha256": "8418b9e5ce84f4c7aa75a540a80bf2732678489a08722779f3f3de2d3bd48ad3",
+      "bytes": 161860,
+      "evidence": "derived_computational_result_not_animal_measurement"
+    },
+    "stage91/grid.csv": {
+      "source_runtime_path": "runtime/conditioning-connectome-followup-main-v2/grid.csv",
+      "sha256": "5ebce7add2660f0f425720b0e09e25ab66e93b159d2fac79197e724a09e30ead",
+      "bytes": 3744,
+      "evidence": "derived_computational_result_not_animal_measurement"
+    },
+    "auditory-paths/summary.json": {
+      "source_runtime_path": "runtime/auditory-parallel-transfer-v3/summary.json",
+      "sha256": "2d774a3869cae699b42d937b983147e2d59b66de3bf7a820c212167caf1d9fe8",
+      "bytes": 4433,
+      "evidence": "derived_computational_result_not_animal_measurement"
+    },
+    "auditory-paths/candidate-paths.csv": {
+      "source_runtime_path": "runtime/auditory-parallel-transfer-v3/candidate-paths.csv",
+      "sha256": "a82937371cf40f5633571c2ff30382c3d1a28c673e2ce29706c89b8a37ff1149",
+      "bytes": 2932,
+      "evidence": "derived_computational_result_not_animal_measurement"
+    },
+    "final-gate/summary.json": {
+      "source_runtime_path": "runtime/auditory-conditioning-final-check-v2/summary.json",
+      "sha256": "1c3c468040b4096eb1f696b49705c1e20077c5ebf29994dea3f0c91590dd09b2",
+      "bytes": 2188,
+      "evidence": "derived_computational_result_not_animal_measurement"
+    }
+  },
+  "included": "allowlisted computed summaries and derived CSV only",
+  "excluded": [
+    "original_user_audio",
+    "credentials",
+    "raw_connectome",
+    "individual_animal_measurements",
+    "large_runtime_sessions"
+  ],
+  "biological_learning_validated": false,
+  "auditory_external_validation": "not_comparable_no_external_validation"
+}
