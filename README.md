@@ -4,7 +4,7 @@
 
 ## 한국어
 
-**정리: 오경민 (Oh Kyeongmin)**  
+**정리: 오경민 (Oh Kyungmin)**  
 **소속: [연세대학교 심리과학이노베이션대학원](https://yongei.yonsei.ac.kr/psycinno/index.do)**
 
 이 저장소용 묶음은 초파리 연결망을 참고한 **계산 모델**의 조건학습
@@ -55,7 +55,7 @@ SHA-256과 바이트 수를 기록한다. Stage 87의 session 행은 실제 개�
 
 ## English
 
-**Prepared by: Oh Kyeongmin (오경민)**  
+**Prepared by: Oh Kyungmin (오경민)**  
 **Affiliation: [Yonsei University Graduate School of Innovative Psychological Science](https://yongei.yonsei.ac.kr/psycinno/index.do)**
 
 This package brings together exploratory **computational** results and
